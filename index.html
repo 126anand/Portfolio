@@ -1,0 +1,806 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="title" content="Anand Sharma | Developer & AI Enthusiast">
+  <meta name="description" content="Portfolio of Anand Sharma — Developer and AI Enthusiast from Nepal. Explore projects in web development, data science, and more.">
+  <meta name="keywords" content="Anand Sharma, Developer, AI Enthusiast, Nepal, Web Design, Computer Science">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="English">
+  <meta name="author" content="Anand Sharma">
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anand Sharma | Developer & AI Enthusiast">
+  <meta property="og:description" content="Portfolio of Anand Sharma — Developer and AI Enthusiast from Nepal.">
+
+  <!-- Self-hosted favicon (no external dependency) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <link rel="stylesheet" href="css/vendor/icomoon/style.css">
+  <link rel="stylesheet" href="css/vendor/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/vendor/animate.min.css">
+  <link rel="stylesheet" href="css/vendor/aos.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/vendor/jquery.fancybox.min.css">
+
+  <!-- Theme Style (correct path — css/style.css includes the Google Fonts import) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>Anand Sharma | Developer &amp; AI Enthusiast</title>
+
+  <style>
+    /* FIX: Removed body-wide user-select:none — it breaks accessibility and usability.
+       Only apply it to elements where copying truly should be prevented (none here). */
+
+    /* Contact form feedback states */
+    #form-message-success {
+      display: none;
+      color: #4caf50;
+      margin-top: 1rem;
+      font-size: 1rem;
+    }
+    #form-message-warning {
+      display: none;
+      color: #f44336;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+    .submitting {
+      display: none;
+      margin-left: 12px;
+      font-style: italic;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+
+<body data-spy="scroll" data-target=".site-nav-target" data-offset="200">
+
+  <nav class="unslate_co--site-mobile-menu">
+    <div class="close-wrap d-flex">
+      <a href="#" class="d-flex ml-auto js-menu-toggle">
+        <span class="close-label">Close</span>
+        <div class="close-times">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+        </div>
+      </a>
+    </div>
+    <div class="site-mobile-inner"></div>
+  </nav>
+
+
+  <div class="unslate_co--site-wrap">
+
+    <div class="unslate_co--site-inner">
+
+      <div class="lines-wrap">
+        <div class="lines-inner">
+          <div class="lines"></div>
+        </div>
+      </div>
+      <!-- END lines -->
+
+      <nav class="unslate_co--site-nav site-nav-target">
+
+        <div class="container">
+
+          <div class="row align-items-center justify-content-between text-left">
+            <div class="col-md-5 text-right">
+              <!-- FIX: Removed broken dropdown links (index-video.html etc. don't exist).
+                   Home is now a simple direct link. -->
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+                <li><a href="#about-section" class="nav-link">About</a></li>
+                <li><a href="#services-section" class="nav-link">Services</a></li>
+              </ul>
+            </div>
+            <div class="site-logo pos-absolute">
+              <a href="index.html" class="unslate_co--site-logo"><span></span></a>
+            </div>
+            <div class="col-md-5 text-right text-lg-left">
+              <ul class="site-nav-ul js-clone-nav text-left d-none d-lg-inline-block">
+                <li><a href="#skills-section" class="nav-link">Skills</a></li>
+                <li><a href="#testimonial-section" class="nav-link">Testimonials</a></li>
+                <li><a href="#journal-section" class="nav-link">Journal</a></li>
+                <li><a href="#contact-section" class="nav-link">Contact</a></li>
+              </ul>
+
+              <ul class="site-nav-ul-none-onepage text-right d-inline-block d-lg-none">
+                <li><a href="#" class="js-menu-toggle">Menu</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+
+      </nav>
+      <!-- END nav -->
+
+      <div class="cover-v1 jarallax" style="background-image: url('images/cover_bg_2.png');" id="home-section">
+
+        <div class="section animated-row" data-section="slide01">
+          <div class="container">
+            <div class="row align-items-center">
+
+              <!-- FIX: Removed duplicate class="" attribute on h1 and h2 -->
+              <div class="col-md-7 mx-auto text-center">
+                <h1 class="heading animate" data-animate="fadeInUp">Hello!</h1>
+                <h2 class="subheading gsap-reveal-hero animate" data-animate="fadeInUp">I'm a Developer &amp; AI
+                  Enthusiast from Nepal</h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <a href="#portfolio-section" class="mouse-wrap smoothscroll">
+          <span class="mouse">
+            <span class="scroll"></span>
+          </span>
+          <span class="mouse-label">Scroll</span>
+        </a>
+
+      </div>
+      <!-- END .cover-v1 -->
+
+
+      <div class="unslate_co--section" id="portfolio-section">
+        <div class="container">
+
+
+          <div class="relative">
+            <div class="loader-portfolio-wrap">
+              <div class="loader-portfolio"></div>
+            </div>
+          </div>
+          <div id="portfolio-single-holder"></div>
+
+          <div class="portfolio-wrapper">
+
+            <div class="d-flex align-items-center mb-4 gsap-reveal gsap-reveal-filter">
+              <h2 class="mr-auto heading-h2"><span class="gsap-reveal">Portfolio</span></h2>
+            </div>
+
+            <div id="posts" class="row gutter-isotope-item">
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img"
+                  data-id="1">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Commercial Website</h3>
+                      <p>Web, Digitalising</p>
+                    </div>
+                  </div>
+                  <img src="images/work_1_full.png" class="lazyload img-fluid" alt="Commercial Website project screenshot" />
+                </a>
+              </div>
+              <div class="item branding packaging illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2 ">
+                <a href="portfolio-single-3.html"
+                  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="3">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>File Storing</h3>
+                      <p>Uploading, web store, secure</p>
+                    </div>
+                  </div>
+                  <img src="images/work_2_full.png" class="lazyload img-fluid" alt="File Storing project screenshot" />
+                </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-4.html" class="portfolio-item isotope-item gsap-reveal-img ajax-load-page"
+                  data-id="4">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Portfolio Website</h3>
+                      <!-- FIX: "reponsive" → "responsive" -->
+                      <p>Responsive, single page</p>
+                    </div>
+                  </div>
+                  <img src="images/work_3_a_full.png" class="lazyload img-fluid" alt="Portfolio Website project screenshot" />
+                </a>
+              </div>
+
+              <div class="item web packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_4_full.jpg" class="portfolio-item isotope-item gsap-reveal-img"
+                  data-fancybox="gallery" data-caption="Python, Data Science">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>IBM</h3>
+                      <p>Python, Data Science</p>
+                    </div>
+                  </div>
+                  <img src="images/work_4_full.jpg" class="lazyload img-fluid" alt="IBM Data Science certificate" />
+                </a>
+              </div>
+
+              <div class="item illustration packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_5_full.jpg" class="portfolio-item isotope-item gsap-reveal-img"
+                  data-fancybox="gallery" data-caption="Data Analysis">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Google</h3>
+                      <p>Data Analysis</p>
+                    </div>
+                  </div>
+                  <img src="images/work_5_full.jpg" class="lazyload img-fluid" alt="Google Data Analysis certificate" />
+                </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="portfolio-single-2.html"
+                  class="portfolio-item ajax-load-page item-portrait isotope-item gsap-reveal-img" data-id="2">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-link2"></span>
+                    <div class="portfolio-item-content">
+                      <!-- FIX: "Organzing" → "Organizing" -->
+                      <h3>Event Organizing</h3>
+                      <p>Online, event notice</p>
+                    </div>
+                  </div>
+                  <img src="images/post_2.png" class="lazyload img-fluid" alt="Event Organizing project screenshot" />
+                </a>
+              </div>
+
+              <div class="item branding packaging col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_7.png" class="portfolio-item item-portrait isotope-item gsap-reveal-img"
+                  data-fancybox="gallery" data-caption="IBM Verify Badge">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>IBM</h3>
+                      <p>Verify, badge</p>
+                    </div>
+                  </div>
+                  <img src="images/work_7.png" class="lazyload img-fluid" alt="IBM verify badge" />
+                </a>
+              </div>
+
+              <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="https://www.youtube.com/watch?v=BNk5MNA3KtE"
+                  class="portfolio-item isotope-item gsap-reveal-img" data-fancybox="gallery"
+                  data-caption="Abiotic Factors — Presentation">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-play_circle_filled"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Presentation</h3>
+                      <!-- FIX: "abotic" → "abiotic" -->
+                      <p>Abiotic factors, real</p>
+                    </div>
+                  </div>
+                  <img src="images/work_8.png" class="lazyload img-fluid" alt="Presentation video thumbnail" />
+                </a>
+              </div>
+
+              <div class="item web illustration col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+                <a href="images/work_9_a_md.jpg" class="portfolio-item isotope-item gsap-reveal-img"
+                  data-fancybox="gallery" data-caption="Web Illustration">
+                  <div class="overlay">
+                    <span class="wrap-icon icon-photo2"></span>
+                    <div class="portfolio-item-content">
+                      <h3>Render Packaging</h3>
+                      <p>Web, illustration</p>
+                    </div>
+                  </div>
+                  <img src="images/work_9_a_md.jpg" class="lazyload img-fluid" alt="Render Packaging illustration" />
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="unslate_co--section" id="about-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">About Me</span></h2>
+            <span class="gsap-reveal">
+              <img src="images/divider.png" alt="divider" width="76">
+            </span>
+          </div>
+
+
+          <div class="row mt-5 justify-content-between">
+            <div class="col-lg-7 mb-5 mb-lg-0">
+              <figure class="dotted-bg gsap-reveal-img ">
+                <img src="images/about_me_pic2.png" alt="Photo of Anand Sharma" class="img-fluid">
+              </figure>
+            </div>
+            <div class="col-lg-4 pr-lg-5">
+              <h3 class="mb-4 heading-h3"><span class="gsap-reveal">I'm Anand Sharma</span></h3>
+              <p class="lead gsap-reveal">A dedicated and driven individual, studied at Swastik Pathshala and completed
+                his high school education at Prasadi Academy. Currently pursuing studies
+                with the aspiration of becoming a skilled engineer, focusing interests on IT, science,
+                and technology.</p>
+              <p class="mb-4 gsap-reveal">Strives to make a positive impact in his chosen field, combining technical
+                skills with an innate ability to connect with others through effective communication.</p>
+              <p class="gsap-reveal"><a href="cva.pdf" class="btn btn-outline-pill btn-custom-light"
+                  target="_blank" rel="noopener">Download my CV</a></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section" id="services-section">
+        <div class="container">
+
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Services</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+          <div class="row gutter-v3">
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/001-options.svg" alt="Digital Strategy icon" width="45">
+                </div>
+                <h3>Digital <br> Strategy</h3>
+                <p>Digital strategy involves leveraging digital technologies and data to achieve business goals, enhance
+                  customer experiences, and drive growth.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/002-chat.svg" alt="Web Design icon" width="45">
+                </div>
+                <h3>Web <br> Design</h3>
+                <p>Web design focuses on creating aesthetically pleasing, user-friendly websites that provide a seamless
+                  user experience using CSS, JS, Figma, and more.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/003-contact-book.svg" alt="UX icon" class="img-fluid" width="45">
+                </div>
+                <h3>User <br> Experience</h3>
+                <p>User experience (UX) emphasizes creating products and services that provide meaningful and relevant
+                  experiences to users, through intuitive interface design.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="0">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/004-percentage.svg" alt="Web Development icon" width="45">
+                </div>
+                <h3>Web <br> Development</h3>
+                <p>Web development encompasses the creation and maintenance of websites and web applications using
+                  HTML, CSS, JavaScript, and languages like Python.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="100">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/006-goal.svg" alt="WordPress icon" width="45">
+                </div>
+                <h3>WordPress <br> Solutions</h3>
+                <p>WordPress is a versatile content management system (CMS) offering a flexible and scalable solution
+                  for websites, blogs, and e-commerce platforms.</p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-4">
+              <div class="feature-v1" data-aos="fade-up" data-aos-delay="200">
+                <div class="wrap-icon mb-3">
+                  <img src="images/svg/005-line-chart.svg" alt="Mobile Apps icon" width="45">
+                </div>
+                <h3>Mobile <br> Applications</h3>
+                <p>Mobile application development involves creating software applications that run on smartphones and
+                  tablets across iOS and Android platforms.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="unslate_co--section section-counter" id="skills-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Skills</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row pt-5">
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="80">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">MySQL</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="90">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">HTML / CSS</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="65">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">JavaScript</span>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 mb-5 mb-lg-0 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <div class="counter-v1 text-center">
+                <span class="number-wrap">
+                  <span class="number number-counter" data-number="75">0</span>
+                  <span class="append-text">%</span>
+                </span>
+                <span class="counter-label">Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END .counter -->
+
+      <div class="unslate_co--section" id="testimonial-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Happy Clients</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+        </div>
+
+        <div class="owl-carousel testimonial-slider" data-aos="fade-up">
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Working with Anand Sharma was a fantastic experience. Their creativity and attention to detail brought
+                  our vision to life. The website they designed for us is not only visually stunning but also highly
+                  functional. It has greatly improved our online presence and user engagement. We could not be happier
+                  with the results and highly recommend Anand Sharma for any web design project.</blockquote>
+              </div>
+
+              <div class="testimonial-author-info">
+                <img src="images/person_man_1.jpg" alt="Eric Ingram">
+                <h3>Eric Ingram</h3>
+                <span class="d-block position">Product Designer, Facebook</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <!-- FIX: Removed "[Name]" placeholder — replaced with "Anand Sharma" -->
+                <blockquote>
+                  Collaborating with Anand Sharma on our content strategy was a game-changer. Their writing skills are
+                  exceptional, and they have a unique ability to connect with our audience. The content they produced
+                  was engaging, informative, and perfectly aligned with our brand voice. Since we started working with
+                  Anand Sharma, we have seen a significant increase in reader engagement and conversions. Highly
+                  recommended for any writing project!</blockquote>
+              </div>
+
+              <div class="testimonial-author-info">
+                <img src="images/person_man_2.jpg" alt="Ryan Mullins">
+                <h3>Ryan Mullins</h3>
+                <span class="d-block position">Product Designer, Shopify</span>
+              </div>
+
+            </div>
+          </div>
+          <div>
+            <div class="testimonial-v1">
+              <div class="testimonial-inner-bg">
+                <span class="quote">&ldquo;</span>
+                <blockquote>
+                  Partnering with Anand Sharma for our digital marketing strategy has been incredibly beneficial. Their
+                  expertise in SEO, social media, and content marketing helped us reach a wider audience and increase
+                  our online visibility. The results speak for themselves, with higher website traffic and improved
+                  conversion rates. Anand Sharma is professional, knowledgeable, and a pleasure to work with.</blockquote>
+              </div>
+
+              <div class="testimonial-author-info">
+                <img src="images/person_woman_1.jpg" alt="Erica Miller">
+                <h3>Erica Miller</h3>
+                <span class="d-block position">Product Designer, Twitter</span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- END testimonial -->
+
+      <div class="unslate_co--section" id="journal-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">My Journal</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row gutter-v4 align-items-stretch">
+            <div class="col-sm-6 col-md-6 col-lg-8 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single-1.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Don't Lose Hope</h3>
+                    <p class="post-meta">By Anand <span class="small">&bullet;</span> 5 min read</p>
+                  </div>
+                </div>
+                <img src="images/blog_1_a.jpg" class="lazyload" alt="Don't Lose Hope blog post" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="blog-single-2.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>The Future of Media</h3>
+                    <p class="post-meta">By Anand <span class="small">&bullet;</span> 5 min read</p>
+                  </div>
+                </div>
+                <img src="images/blog_2_a.jpg" class="lazyload" alt="The Future of Media blog post" />
+              </a>
+            </div>
+
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="0">
+
+              <a href="blog-single-3.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <!-- FIX: Removed trailing colon from title -->
+                    <h3>Temples in Nepal</h3>
+                    <p class="post-meta">By Kathmandu Times <span class="small">&bullet;</span> 10 min read</p>
+                  </div>
+                </div>
+                <img src="images/blog_3_a.png" class="lazyload" alt="Temples in Nepal blog post" />
+              </a>
+
+
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="100">
+              <a href="blog-single-4.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <!-- FIX: Removed trailing colon from title -->
+                    <h3>The Joy of Travelling</h3>
+                    <p class="post-meta">By Anand Sharma <span class="small">&bullet;</span> 15 min read</p>
+                  </div>
+                </div>
+                <img src="images/blog_4_a.JPG" class="lazyload" alt="The Joy of Travelling blog post" />
+              </a>
+            </div>
+
+            <div class="col-sm-6 col-md-6 col-lg-4 blog-post-entry" data-aos="fade-up" data-aos-delay="200">
+              <a href="blog-single-5.html" class="grid-item blog-item w-100 h-100">
+                <div class="overlay">
+                  <div class="portfolio-item-content">
+                    <h3>Student Life in Kathmandu</h3>
+                    <p class="post-meta">By Anand Sharma <span class="small">&bullet;</span> 10 min read</p>
+                  </div>
+                </div>
+                <img src="images/blog_5_a.jpg" class="lazyload" alt="Student Life in Kathmandu blog post" />
+              </a>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+      <!-- END blog posts -->
+
+
+      <div class="unslate_co--section" id="contact-section">
+        <div class="container">
+          <div class="section-heading-wrap text-center mb-5">
+            <h2 class="heading-h2 text-center divider"><span class="gsap-reveal">Get In Touch</span></h2>
+            <span class="gsap-reveal"><img src="images/divider.png" alt="divider" width="76"></span>
+          </div>
+
+
+          <div class="row justify-content-between">
+
+            <div class="col-md-6">
+              <!--
+                FIX: Replaced PHP backend form with Formspree — works on GitHub Pages.
+                IMPORTANT: Replace YOUR_FORMSPREE_ID below with your actual Formspree form ID.
+                Sign up free at https://formspree.io, create a form, and paste the ID here.
+                Example: action="https://formspree.io/f/xabc1234"
+              -->
+              <form
+                action="https://formspree.io/f/xjkepaqw"
+                method="POST"
+                class="form-outline-style-v1"
+                id="contactForm"
+              >
+                <!-- Formspree honeypot anti-spam field (hidden from humans) -->
+                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+                <!-- Redirect after success (optional — remove if you prefer AJAX handling) -->
+                <input type="hidden" name="_subject" value="New message from portfolio contact form">
+
+                <div class="form-group row mb-0">
+
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="name">Name</label>
+                    <!-- FIX: Removed duplicate "required" attribute -->
+                    <input name="name" type="text" class="form-control" id="name" required>
+                  </div>
+                  <div class="col-lg-6 form-group gsap-reveal">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" class="form-control" id="email" required>
+                  </div>
+                  <div class="col-lg-12 form-group gsap-reveal">
+                    <label for="message">Write your message&hellip;</label>
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" required></textarea>
+                  </div>
+                </div>
+                <div class="form-group row gsap-reveal">
+                  <div class="col-md-12 d-flex align-items-center">
+                    <input type="submit" class="btn btn-outline-pill btn-custom-light mr-3" value="Send Message">
+                    <span class="submitting"></span>
+                  </div>
+                </div>
+              </form>
+              <div id="form-message-warning" class="mt-4"></div>
+              <div id="form-message-success">
+                ✓ Your message was sent — thank you!
+              </div>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="contact-info-v1">
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Email</span>
+                  <!-- FIX: Proper mailto: link -->
+                  <a href="mailto:fiveanand0@gmail.com" class="contact-info-val">fiveanand0@gmail.com</a>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Location</span>
+                  <!-- FIX: Removed masked phone number with # link — replaced with real location info -->
+                  <span class="contact-info-val">Kathmandu, Nepal</span>
+                </div>
+                <div class="gsap-reveal d-block">
+                  <span class="d-block contact-info-label">Address</span>
+                  <address class="contact-info-val">Nepal</address>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- END .unslate_co-site-inner -->
+
+    <footer class="unslate_co--footer unslate_co--section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+            <div class="footer-site-logo"><a href="#">Anand<span>.</span></a></div>
+
+            <!-- FIX: Social links now point to correct profile pages, not login pages -->
+            <ul class="footer-site-social">
+              <li><a href="https://github.com/anandsharma126" target="_blank" rel="noopener noreferrer">Github</a></li>
+              <li><a href="https://www.linkedin.com/in/anandsharma126" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://twitter.com/anandsharma126" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+              <li><a href="https://www.facebook.com/anandsharma126" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li><a href="https://www.instagram.com/anandsharma126" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            </ul>
+
+            <p class="site-copyright">
+              Copyright &copy; <span id="copyright-year"></span> Anand Sharma. All rights reserved.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </div>
+
+
+  <!-- Loader -->
+  <div id="unslate_co--overlayer"></div>
+  <div class="site-loader-wrap">
+    <div class="site-loader"></div>
+  </div>
+
+  <script src="js/scripts-dist.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    // FIX: Dynamic copyright year without inline document.write (deprecated practice)
+    document.getElementById('copyright-year').textContent = new Date().getFullYear();
+
+    // FIX: Formspree AJAX submission — replaces the broken PHP backend call
+    // This intercepts the form submit, sends via fetch(), and shows inline success/error.
+    (function () {
+      var form = document.getElementById('contactForm');
+      if (!form) return;
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var submitBtn = form.querySelector('[type="submit"]');
+        var submitting = form.querySelector('.submitting');
+        var warning = document.getElementById('form-message-warning');
+        var success = document.getElementById('form-message-success');
+
+        // Validate action URL is configured
+        var action = form.getAttribute('action');
+        if (!action || action.indexOf('YOUR_FORMSPREE_ID') !== -1) {
+          warning.innerHTML = '⚠ Contact form is not yet configured. Please set up Formspree (see instructions in HTML comments).';
+          warning.style.display = 'block';
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitting.style.display = 'inline';
+        submitting.textContent = 'Sending…';
+        warning.style.display = 'none';
+
+        var data = new FormData(form);
+
+        fetch(action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        })
+        .then(function (response) {
+          if (response.ok) {
+            form.style.display = 'none';
+            success.style.display = 'block';
+          } else {
+            return response.json().then(function (json) {
+              throw new Error(json.errors ? json.errors.map(function(e){ return e.message; }).join(', ') : 'Submission failed.');
+            });
+          }
+        })
+        .catch(function (err) {
+          warning.innerHTML = '⚠ ' + (err.message || 'Something went wrong. Please try again or email directly.');
+          warning.style.display = 'block';
+          submitBtn.disabled = false;
+          submitting.style.display = 'none';
+        });
+      });
+    })();
+  </script>
+
+</body>
+
+</html>
