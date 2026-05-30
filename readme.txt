@@ -3,25 +3,6 @@ Anand Sharma — Portfolio Website
 
 SETUP INSTRUCTIONS
 ------------------
-
-1. CONTACT FORM (Formspree):
-   - Sign up free at https://formspree.io
-   - Create a new form and copy your Form ID (looks like: xabc1234)
-   - Open index.html and find this line:
-       action="https://formspree.io/f/YOUR_FORMSPREE_ID"
-   - Replace YOUR_FORMSPREE_ID with your actual ID
-   - Example: action="https://formspree.io/f/xabc1234"
-
-2. SOCIAL LINKS:
-   - Open index.html and scroll to the <footer> section
-   - Update the GitHub, LinkedIn, Twitter, Facebook, Instagram links
-     with your actual profile URLs
-
-3. GITHUB PAGES DEPLOYMENT:
-   - Push this folder to a GitHub repository
-   - Go to Settings → Pages → Source: main branch / root
-   - Your site will be live at https://yourusername.github.io/repo-name
-
 BUGS FIXED IN THIS VERSION
 ---------------------------
  - PHP backend removed (not compatible with GitHub Pages)
